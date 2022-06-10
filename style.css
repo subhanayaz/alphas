@@ -1,0 +1,161 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #222 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+@font-face {
+  font-family: bremen;
+  src: url(Bremen.ttf);
+}
+
+.logo-slogan {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+  font-size: 35px;
+  font-family: bremen;
+}
+
+.float {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  z-index: 100;
+}
+
+.float:hover {
+  background-color: rgb(0, 114, 89);
+}
+
+.navbars:hover {
+  background-color: #1c45ff;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+label {
+  font-size: 16px;
+}
+
+.submit {
+  background-color: #1c45ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #1c45ff;
+  border: 1px solid #1c45ff;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgb(112, 112, 112);
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(161, 161, 161);
+  border-radius: 5px;
+}
+
+.telugu-font {
+  font-family: "Noto Sans Telugu", sans-serif;
+}
+
+.description {
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+}
+
+.products {
+  margin-top: 20px;
+  font-size: 56px;
+  margin-bottom: 25px;
+}
+
+.card-group {
+  margin: 25px;
+  width: fit-content;
+  transition: 0.7s ease;
+}
+
+.card {
+  margin: 25px;
+  border-radius: 10px;
+  border: 1px solid rgb(144, 144, 144);
+  /* border-bottom-left-radius: 1px solid black; */
+  box-shadow: 1px 1px 2px 2px rgba(144, 144, 144, 0.800);
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+.cardbtn {
+  border: none;
+  color: white;
+}
+
+.cardbtn:hover {
+  background-color: rgb(0, 50, 255);
+  color: white;
+  border: none;
+}
+
+.underline:hover {
+  /* text-decoration: underline; */
+  color: rgb(0, 0, 0);
+}
